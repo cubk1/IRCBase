@@ -110,6 +110,7 @@ public class IRCServer {
             }
         };
 
+        // 此处可以修改你的端口
         AioQuickServer server = new AioQuickServer(8888, protocol, processor);
         server.setBannerEnabled(false);
         server.start();
